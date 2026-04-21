@@ -20,5 +20,5 @@ mitigarían?
 # diccionario de datos:
 
 Columna    |  Tipo de dato  | Limite de caracteres |  ¿Es nulo?  | Descripción  |
-----------------------------------------------------------------------------------
+
 
