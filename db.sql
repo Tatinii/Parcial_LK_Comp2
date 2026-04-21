@@ -31,4 +31,4 @@ INSERT INTO carreras (nombre, facultad, cupos) VALUES
 ('Licenciatura en Derecho', 'Ciencias Jurídicas', 35);
 
 INSERT INTO usuarios (username, password) VALUES
-('admin', 'Admin123');
+('admin', '$2y$10$U8egqm1dPhU733CH0GL.kOsNjdT6Tq9.yGnMtypwYHxlq0YTC5Cg2');

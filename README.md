@@ -48,3 +48,7 @@ Al desplegar esta aplicación web en la zona oriental, el entorno operativo pres
 
 
 
+Credenciales de acceso 
+
+User: admin
+Pass: Admin123
