@@ -1,4 +1,43 @@
-# Parcial_LK_Comp2
+# Sistema de Login - Parcial
+
+Proyecto de sistema de autenticación con PHP y MySQL.
+
+## Estructura de Carpetas
+
+```
+parcial/
+├── db.php          # Conexión a la base de datos
+├── index.php       # Página principal (requiere autenticación)
+├── login.php       # Página de inicio de sesión
+├── logout.php      # Script para cerrar sesión
+├── style.css       # Estilos CSS
+└── readme.md       # Este archivo
+```
+
+## Requisitos
+
+- PHP 7.4+
+- MySQL 5.7+
+- Apache/Nginx
+
+## Instalación
+
+1. Crea una base de datos MySQL llamada `parcial_db`
+2. Crea una tabla `users` con los campos: id, username, password
+3. Coloca los archivos en la carpeta del servidor web
+4. Configura las credenciales de la base de datos en `db.php`
+
+## Uso
+
+- Accede a `login.php` para iniciar sesión
+- Los usuarios autenticados pueden acceder a `index.php`
+- Usa `logout.php` para cerrar sesión
+
+## Seguridad
+
+- Las contraseñas están hasheadas con `password_hash()`
+- Se validan con `password_verify()`
+- Se usa `prepared statements` para prevenir inyecciones SQL
 Parcial de Segundo Computo
 
 # Integrantes
