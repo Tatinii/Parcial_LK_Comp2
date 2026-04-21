@@ -117,5 +117,7 @@ $carreras = $pdo->query("SELECT id, nombre FROM carreras")->fetchAll(PDO::FETCH_
             </table>
         </div>
     </div>
+
+    
 </body>
 </html>
