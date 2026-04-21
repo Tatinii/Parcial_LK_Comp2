@@ -40,7 +40,7 @@ Al desplegar esta aplicación web en la zona oriental, el entorno operativo pres
 | modalidad | VARCHAR | 50 | No | Modalidad de estudio seleccionada, restringida a presencial o virtual. |
 | carrera_id | INT | N/A | No | Llave foránea que establece la relación de pertenencia con la tabla de carreras. |
 
-#Tabla: usuarios
+# Tabla: usuarios
 | Columna | Tipo de dato | Limite de caracteres | ¿Es nulo? | Descripción |
 | id | INT | N/A | No | Llave primaria autoincremental para el control de cuentas del sistema. |
 | username | VARCHAR | 50 | No | Nombre de usuario administrador utilizado para la autenticación en el login. |
